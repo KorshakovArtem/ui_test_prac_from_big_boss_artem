@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
 public class DynamicIdExc extends BasePage {
-    By recordButton = By.xpath("//*[@id='btn btn-primary']");
+    By recordButton = By.xpath("//*[@class='btn btn-primary']");
 
     public DynamicIdExc(WebDriver driver) {
         super(driver);
